@@ -67,7 +67,7 @@ if(shotState<3){
   if(shotState==1){
     ball.setVector();
   }else if(shotState==2){
-    ball.hit();
+    ball.hit(100);
   }
   shotState++;
   println(shotState);
